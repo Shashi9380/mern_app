@@ -47,3 +47,5 @@ backend run on url: http://localhost:9000
    ![Alt text](frontend/LoginForm.png) 
    Dashboard after login: 
    ![Alt text](frontend/DashBoard.png) 
+> [!CAUTION]
+   If you are running this in AWS EC2 with http, use a different browser instead of Google Chrome. Chrome enforces stricter policies for private network requests when the client is not served over HTTPS. 
