@@ -7,7 +7,7 @@ function Dashboard({ token, setToken }) {
 
   const fetchData = async () => {
     try {
-      const response = await axios.get("http://localhost:9000/dashboard", {
+      const response = await axios.get("http://65.0.26.116:9000/dashboard", {
         headers: { "x-access-token": token },
       });
       setMessage(response.data.message);
