@@ -16,7 +16,7 @@ const mockUser = {
 app.use(express.json()); // Parse JSON bodies
 
 const corsOptions = {
-  origin: ["http://localhost:3000", "http://13.201.41.69:3000"], // React app origin
+  origin: ["http://localhost:3000", "http://localhost:3000"], // React app origin
   methods: "GET,POST,PUT,DELETE",
   allowedHeaders: ["Content-Type", "x-access-token"],
 };
